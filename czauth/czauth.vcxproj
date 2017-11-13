@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AB50369D-CFE9-4FD3-8BA5-B0B3D9CD0E9C}</ProjectGuid>
-    <RootNamespace>dgauth</RootNamespace>
+    <RootNamespace>czauth</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <ProjectName>czauth</ProjectName>
   </PropertyGroup>
@@ -86,17 +86,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="dgauth.cpp" />
+    <ClCompile Include="czauth.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dgauth.h" />
+    <ClInclude Include="czauth.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="dgauth.rc" />
+    <ResourceCompile Include="czauth.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
